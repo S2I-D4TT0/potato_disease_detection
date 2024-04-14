@@ -6,10 +6,10 @@
 
 3.Navigate to the repository directory.
 
-4. Run $ streamlit main.py 
+4.Run '$ streamlit main.py' 
   
 
-#Using the tool:
+## Using the tool:
 
 1)After local hosting , you can upload image by clicking upload image button or capturing image using camera can be done by clicking Take image button.
 
