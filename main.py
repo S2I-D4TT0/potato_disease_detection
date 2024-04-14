@@ -10,19 +10,27 @@ warnings.filterwarnings("ignore")
 # Load the Keras model
 model = load_model('model.h5')
 class_names = ["EarlyBlight", "LateBlight", "Healthy"]
+def images_to_array(image):
+    img_list = []
+    img = image.resize((256, 256))
+    img_array = img_to_array(img)
+    img_array = img_array.astype(np.uint8)
+    img_list.append(img_array)
+    return img_list
 
 
 def predict(image):
-    test_image = image.resize((256, 256))
-    test = img_to_array(test_image)
-    test /= 255.0
+    test = images_to_array(image)
     test = np.array(test)
-    prediction = model.predict(test)  # Reshape for model compatibility
+    #converting test from image to np array
+    prediction = model.predict(test)
     predicted_class_index = np.argmax(prediction)
     predicted_class = class_names[predicted_class_index] if class_names else str(predicted_class_index)
     confidence_score = int(100 * prediction[0][predicted_class_index])
+    #printing accuracy
     return predicted_class, confidence_score
     
+
     
 def upload_page():
     st.title("Upload Image")
