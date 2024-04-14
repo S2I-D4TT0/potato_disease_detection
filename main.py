@@ -31,6 +31,7 @@ def upload_page():
         if st.button("Back",key="capture_back",on_click=lambda: st.session_state.update(page="home")):
             pass
     file_uploader = st.file_uploader("Upload Image", type=["jpg", "jpeg", "png"], accept_multiple_files=False, key="upload")
+    st.write("upload image of single leaf only")
 
     if file_uploader is not None:
         # Display the uploaded image
@@ -77,6 +78,7 @@ def capture_page():
         if st.button("Back",key="capture_back",on_click=lambda: st.session_state.update(page="home")):
             pass
     captured_image = st.camera_input("", key="capture")
+    st.write("Capture Image of Single leaf only")
 
     if captured_image is not None:
         image = Image.open(captured_image)
