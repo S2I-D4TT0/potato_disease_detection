@@ -22,12 +22,12 @@ def images_to_array(image):
 def predict(image):
     test = images_to_array(image)
     test = np.array(test)
-    #converting test from image to np array
+    # converting test from image to np array
     prediction = model.predict(test)
     predicted_class_index = np.argmax(prediction)
     predicted_class = class_names[predicted_class_index] if class_names else str(predicted_class_index)
     confidence_score = int(100 * prediction[0][predicted_class_index])
-    #printing accuracy
+    # printing accuracy
     return predicted_class, confidence_score
     
 
