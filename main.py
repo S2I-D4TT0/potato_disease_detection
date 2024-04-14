@@ -37,8 +37,7 @@ def upload_page():
         uploaded_image = Image.open(file_uploader)
         st.image(uploaded_image, caption='Uploaded Image', use_column_width=True)
         
-        # Preprocess the uploaded image
-        #target_shape = (1, 719, 1280, 3)  # Target shape expected by the model
+        
        
         upload_captured_button = st.button("Predict")
         if upload_captured_button:
