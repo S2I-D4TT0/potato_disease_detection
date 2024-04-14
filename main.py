@@ -17,7 +17,7 @@ def predict(image):
     test = img_to_array(test_image)
     test /= 255.0
     test = np.array(test)
-    prediction = model.predict(test.reshape(1, 256, 256, 3))  # Reshape for model compatibility
+    prediction = model.predict(test)  # Reshape for model compatibility
     predicted_class_index = np.argmax(prediction)
     predicted_class = class_names[predicted_class_index] if class_names else str(predicted_class_index)
     confidence_score = int(100 * prediction[0][predicted_class_index])
