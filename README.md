@@ -1,8 +1,11 @@
 # potato_disease_detection
 #How to Run:
 1.Set up streamlit in your machine $ pip install streamlit
+
 2.Clone the repository 'git clone https://github/S2I-D4TT0/potato_disease_detection'
+
 3.Navigate to the repository directory.
+
 4. Run $ streamlit main.py 
   
 
