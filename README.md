@@ -1,22 +1,33 @@
 # potato_disease_detection
 ## How to Run:
-1.Set up streamlit in your machine `$ pip install streamlit`
+1. Set up streamlit in your machine `$ pip install streamlit`
 
-2.Clone the repository: `git clone https://github/S2I-D4TT0/potato_disease_detection`
+2. Clone the repository: `git clone https://github/S2I-D4TT0/potato_disease_detection`
 
 
-3.Navigate to the repository directory.
+3. Navigate to the repository directory.
 
-4.Run  `$ streamlit main.py`
+4. Run  `$ streamlit main.py`
   
 
-## Using the tool:
+## Tool Utilization Guidelines:
 
-1.After local hosting , you can upload image by clicking upload image button or capturing image using camera can be done by clicking Take image button.
+1. Upon Local Hosting:
+   - Start by hosting the tool locally.
+   - You can upload an image by selecting the "Upload Image" option.
+   - Alternatively, capture an image using your camera via the "Take Image" button.
 
-2.After uploading/capture you can preview your image before clicking predict button. Then click Predict button to get your results and rate your experience out of scale from 1 to 5.
+2. Image Preview:
+   - Preview the uploaded or captured image before proceeding further.
+   - Ensure the image meets your expectations.
 
-3.If any error occurred do try refreshing the page 
+3. Prediction:
+   - Click on the "Predict" button to obtain results.
+   - After prediction, rate your experience on a scale from 1 to 5.
+
+4. Error Handling:
+   - In case of any errors, consider refreshing the page.
+
 
 
 ## About the Prediction Model:
