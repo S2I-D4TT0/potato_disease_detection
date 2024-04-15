@@ -4,10 +4,10 @@
 
 2. Clone the repository: `git clone https://github/S2I-D4TT0/potato_disease_detection`
 
-
 3. Navigate to the repository directory.
 
 4. Run  `$ streamlit main.py`
+
   
 
 ## Tool Utilization Guidelines:
@@ -35,8 +35,21 @@
 In this project, we have employed a potato disease detection model trained on a diverse array of potato leaf disease images sourced from the **plant_village** dataset and many other datasets combinely we acquired a dataset size of about 10000 images and hence which increases our accuracy pretty much than others.
 
 For an in-depth exploration of the model's inner workings, including its architecture, data preprocessing methodologies, feature extraction techniques, and the model's accuracy, I encourage you to delve into the accompanying Jupyter notebook:
+<br>
+### Useful quick links 🔗.
+📘 [Explore Model Details (Notebook)](https://github.com/S2I-D4TT0/potato_disease_detection/blob/main/potato-disease-classifier.ipynb)
+<br>
+👉  [Dataset link.](https://www.kaggle.com/datasets/umedaranaveer/potato-dataset)
+<br>
+📽️ [Video demo link.](https://drive.google.com/file/d/13SFUCVBrtl1vroTmMtkB_cFKhCK5VGzd/view?usp=drivesdk)
 
-📘 [Explore Model Details](https://github.com/S2I-D4TT0/potato_disease_detection/blob/main/potato-disease-classifier.ipynb)
-
-After training the model using the above techniques we got  training accuracy of 0.9932 and a validation accuracy of 0.9900
+## Results
+After training the model using the above techniques we got  training accuracy of **0.9932** and a validation accuracy of **0.9900**
+<br><br>
+### collaborators
+* [Sri Dattu](https://github.com/S2I-D4TT0)
+* [Ranaveer](https://github.com/uranaveer)
+* [Lohith](https://github.com/lohith49)
+* [Leela Jogindhar](https://github.com/rljsai)
+* [Manideep](https://github.com/manideep-0503)
 
