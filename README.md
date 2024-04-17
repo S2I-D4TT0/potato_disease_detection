@@ -50,6 +50,6 @@ After training the model using the above techniques we got  training accuracy of
 * [Sri Dattu](https://github.com/S2I-D4TT0)
 * [Ranaveer](https://github.com/uranaveer)
 * [Lohith](https://github.com/lohith49)
-* [Leela Jogindhar](https://github.com/rljsai)
+* [Leela Jogeendar sai](https://github.com/rljsai)
 * [Manideep](https://github.com/manideep-0503)
 
