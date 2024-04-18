@@ -22,7 +22,7 @@
    - Ensure the image meets your expectations.
 
 3. Prediction:
-   - Click on the "Predict" button to obtain results.
+   - Click on the "Predict" button to obtain the results.
    - After prediction, rate your experience on a scale from 1 to 5.
 
 4. Error Handling:
