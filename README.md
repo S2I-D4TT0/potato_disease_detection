@@ -6,7 +6,7 @@
 
 3. Navigate to the repository directory.
 
-4. Run  `$ streamlit main.py`
+4. Run  `$ streamlit run main.py`
 
   
 
